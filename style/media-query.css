@@ -2,12 +2,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-      background-image: linear-gradient(to bottom, #F0E2E1, #000641);
+      width: 100vw;
+      background-image: linear-gradient(to bottom, #E0C8F0, #0A3D6C);
 
     }
 
       section#login {
         width: 80vw;
+        height: 340px;
 
     } 
       
@@ -27,14 +29,16 @@
                 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px)  {
     body {
-     background-image: linear-gradient(to bottom, #F0E2E1, #000641);
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #E0C8F0, #0A3D6C);
 
     }
 
      section#login {
         width: 951px;
+
 
     }
 
@@ -46,8 +50,11 @@
     }
 
      section#login > div#formulario {
+        position: absolute;
         float: right;
         width: 50%;
+        transform: translate(100%, 65%);
+        
 
 
     }               
@@ -55,7 +62,7 @@
 
 @media screen and (min-width: 1220px) {
      body, html {
-     background-image: linear-gradient(to bottom,  #EADFDD, #000641);
+     background-image: linear-gradient(to bottom, #E0C8F0, #0A3D6C);
 
     }
 
@@ -79,4 +86,8 @@
      }               
     
 }
+
+
+    
+
 
