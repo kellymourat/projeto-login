@@ -17,7 +17,7 @@
 }
 
 body, html {
-   background-color: #F2E4E3;
+   background-image: linear-gradient(to bottom, #E0C8F0, #0A3D6C);
    height: 100vh;
    width: 100vw;
 
@@ -109,7 +109,7 @@ div.campo > input {
    border: 0px;
    border-radius: 8px;
    padding: 4px;
-   transform: translateY(-12px);
+   transform: translateY(-13px);
 
 
 }
