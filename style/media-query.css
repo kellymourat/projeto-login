@@ -45,14 +45,16 @@
 
      section#login div#imagem-fundo {
       float: left;
-      width: 50%; 
+      width: 50%;
       height: 100%;
 
     }
 
      section#login > div#formulario {
+      padding-top: 160px;
       float: right;
       width: 50%;
+      
         
     }               
 }
